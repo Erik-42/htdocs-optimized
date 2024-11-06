@@ -3,21 +3,9 @@
 if (isset($_GET['dir'])) {
     // Le nom du dossier sélectionné
     $dir = $_GET['dir'];
-    
-    // // Affiche le contenu du paramètre dir pour diagnostic
-    // echo "<p>Paramètre 'dir' reçu : " . htmlspecialchars($dir) . "</p>";
 
     // Construire le chemin complet
     $directoryPath = __DIR__ . '/../www-org/' . $dir;
-
-    // // Afficher le chemin construit pour diagnostic
-    // echo "<p>Chemin du dossier construit (avant realpath) : " . htmlspecialchars($directoryPath) . "</p>";
-
-    // // Résolution du chemin complet
-    // $directoryPath = realpath($directoryPath);
-
-    // // Afficher le chemin après l'application de realpath
-    // echo "<p>Chemin du dossier après realpath : " . htmlspecialchars($directoryPath) . "</p>";
 
     // Vérifier si le chemin est valide et existe
     if ($directoryPath && is_dir($directoryPath)) {

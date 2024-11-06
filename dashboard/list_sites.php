@@ -9,7 +9,7 @@ $defaultComment = ' ==> Aucun commentaire disponible pour ce site.';
 if (is_dir($directoryPath)) {
     // Ouvre le répertoire et parcourt son contenu
     if ($handle = opendir($directoryPath)) {
-        echo '<h2>Liste des sites dans Xampp</h2>';
+        echo '<h2>Liste des sites dans www-org</h2>';
         echo '<ul>';
         
         // Boucle pour lire chaque élément dans le répertoire

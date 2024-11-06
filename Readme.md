@@ -31,14 +31,15 @@
 
 <div align="center">
 
-![GitHub License](https://img.shields.io/github/license/Erik-42/bash-cv)
+![GitHub License](https://img.shields.io/github/license/Erik-42/htdocs-optimized)
+![contributors-shield](https://img.shields.io/github/contributors/Erik-42/htdocs-optimized)
+![issues-shield](https://img.shields.io/github/issues-raw/Erik-42/htdocs-optimized)
+![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/Erik-42/htdocs-optimized)
+![forks](https://img.shields.io/github/forks/Erik-42/htdocs-optimized)
 
-![contributors-shield](https://img.shields.io/github/contributors/Erik-42/bash-cv)
-![issues-shield](https://img.shields.io/github/issues-raw/Erik-42/bash-cv)
-![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/Erik-42/bash-cv)
-![forks](https://img.shields.io/github/forks/Erik-42/bash-cv)
+![GitHub last commit](https://img.shields.io/github/last-commit/Erik-42/bash-cv)
 
-[![wakatime](https://wakatime.com/badge/github/Erik-42/bash-cv.svg)](https://wakatime.com/badge/github/Erik-42/bash-cv)
+[![wakatime](https://wakatime.com/badge/github/Erik-42/htdocs-optimized.svg)](https://wakatime.com/badge/github/Erik-42/htdocs-optimized)
 [![wakatime](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/f399c8ca-204b-4b77-96ca-77946d4ce99e.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/f399c8ca-204b-4b77-96ca-77946d4ce99e)
 
 </div>
@@ -47,7 +48,7 @@ htdocs-optimized est une petite amélioration du dashboard de Xampp qui réperto
 
 Cela vous permet de voir au premier coup d'oeil vos projets de sites et de les lancer.
 
-## Installation:
+## Installation
 
 Copier simplement le dossier dashboard de ce github à la place de celui existant par défaut une fois Xamp installé.
 
@@ -69,9 +70,10 @@ une fois Xampp lancé
 
 - Nommé vos dossiers de projet de façon explicite
 
-uploader votre projet dans un dossier dans le repertoire: <br/>
-`/opt/lampp/htdocs/www-org`
+uploader votre projet dans un dossier dans le repertoire: `/opt/lampp/htdocs/www-org`<br/>
 (pensez aux autorisations sous linux)
+<br/>
+
 ex: `/opt/lampp/htdocs/www-org/votre_projet/`
 
 - Remplissez correctement les descriptions au début de vos fichiers `index.html` et `index.php`<br/>
@@ -109,6 +111,7 @@ https://github.com/Erik-42/htdocs-optimized
 
 ## License
 
+![GitHub License](https://img.shields.io/github/license/Erik-42/htdocs-optimized)<br/>
 Distributed under the GNU License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -119,6 +122,8 @@ Distributed under the GNU License. See `LICENSE.txt` for more information.
 
 [![wakatime][wakatime-shield]][wakatime-url]
 [![GitHub repo][github repo-shield]][github repo-url]
+
+![Repositories](https://img.shields.io/badge/repositories-0-blue)
 
 [![GitHub followers][github followers-shield]][github followers-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -149,3 +154,5 @@ Contactez moi: mesen.erik@gmail.com
 [stars-url]: https://github.com/Erik-42?tab=stars
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/erik-mesen/
+[repositories-shield]: https://img.shields.io/github/repositories/Erik-42
+[repositories-url]: https://github.com/Erik-42?tab=repositories

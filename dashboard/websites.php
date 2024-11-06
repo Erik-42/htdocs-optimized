@@ -20,7 +20,7 @@
 
   </head>
 
-  <body class="x404">
+  <body class="websites-list">
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -59,37 +59,19 @@
       <div class="hero">
   <div class="row">
     <div class="large-12 columns">
-      <h1>Sites web PHP<span>Erik-42</span></h1>
+      <h1><img src="/dashboard/images/xampp-logo.svg" />XAMPP <span>Mes sites web - Erik-42</span></h1>
+      <h2>Apache + MariaDB + PHP + Perl</h2>
     </div>
   </div>
 </div> 
-<form action="/dashboard/search.html" method="get">
-    <div class="row">
-      <div class="large-8 small-9 columns">
-        <input type="text" name="q" placeholder="Search..">
-      </div>
-      <div class="large-4 small-3 columns">
-        <input type="submit" class="success button postfix expand" value="Search"/>
-      </div>
-    </div>
-</form>
+
 <div class="row">
   <div class="large-12 columns">
     <!-- Inclusion du fichier PHP pour lister les sites -->
     <?php include 'list_sites.php'; ?>
   </div>
 </div>
-<div class="row">
-  <div class="large-12 columns">
-    <h2>Sites sous Wordpress</h2>
-    <p><a target="_blank" href="../../leraidtolkien.wordpress/index.php">Le Raid Tolkien</a> ==> Site web de l'association "Le Raid Tolkien" sous Wordpress.</p>
-<p><a target="_blank" href="../../cidreetdragon.wordpress/index.php">Cidre & Dragon</a> ==> Site web du festival "Cidre & Dragon" sous Wordpress.</p></p>
-<br/>
- <h2>Sites sous Joomla</h2>
-    <p><a target="_blank" href="../www-org/cidreetdragon.eu/public_html/index.html">Cidre & Dragon</a> ==> Site web du festival "Cidre & Dragon" sous Joomla.</p>
-   
-  </div>
-</div>
+
     </div>
 
     <footer class="footer row">
@@ -101,18 +83,21 @@
   <li class="facebook"><a href="https://www.facebook.com/we.are.xampp">Like us on Facebook</a></li>
 </ul>
 
-            <p class="footer_copyright">Copyright (c) 2022, Apache Friends - Erik-42</p>
+            <p class="footer_copyright">Copyright (c) 2022, Apache Friends<br/>GNU 2024, Erik-42</p>
           </div>
           <ul class="footer_links columns large-9">
             <li><a href="https://www.apachefriends.org/blog.html">Blog</a></li>
             <li><a href="/privacy_policy.html">Privacy Policy</a></li>
             <li>
-<a target="_blank" href="http://www.fastly.com/">                CDN provided by
+              <a target="_blank" href="http://www.fastly.com/">                CDN provided by
                 <img width="48" data-2x="/dashboard/images/fastly-logo@2x.png" src="/dashboard/images/fastly-logo.png" />
-</a>            </li>
-          </ul>
+              </a>            </li>
+            </ul>
+          </div>
+          <a href="https://github.com/Erik-42" target="_blank">
+        <img src="https://img.shields.io/badge/Github-Erik--42-155?style=for-the-badge&logo=github" alt="GitHub Badge">
+        </a>
         </div>
-      </div>
     </footer>
 
     <!-- JS Libraries -->
